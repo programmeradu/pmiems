@@ -32,9 +32,9 @@ const EXCLUDED_PATHS = [
   '.git',
   '.replit',
   'replit.nix',
-  '.config',
   '.upm',
   'temp',
+  'build_output'
 ];
 
 /**
