@@ -1,0 +1,62 @@
+appId: com.psi-susas-membership.app
+productName: PSI-SUSAS Membership Data Management System
+copyright: Copyright © 2025 PSI-SUSAS
+directories:
+  output: electron_dist
+  buildResources: build
+files:
+  - build/**/*
+  - build_output/**/*
+  - node_modules/**/*
+  - public/**/*
+extraMetadata:
+  main: "public/electron.js"
+asar: true
+mac:
+  category: public.app-category.business
+  hardenedRuntime: true
+  gatekeeperAssess: false
+  entitlements: build/entitlements.mac.plist
+  entitlementsInherit: build/entitlements.mac.plist
+  icon: "build/icon.icns"
+  target:
+    - dmg
+    - zip
+win:
+  icon: "build/icon.ico"
+  target:
+    - nsis
+    - portable
+linux:
+  icon: "build/icons"
+  category: Office
+  target:
+    - AppImage
+    - deb
+    - rpm
+  desktop:
+    entry:
+      Name: PSI-SUSAS Membership Management
+      Comment: Offline membership data management application
+      GenericName: Membership Management
+      Categories: Office;Business
+      Keywords: membership;management;organization;psi;susas
+nsis:
+  oneClick: false
+  allowToChangeInstallationDirectory: true
+  createDesktopShortcut: true
+  createStartMenuShortcut: true
+  shortcutName: PSI-SUSAS Membership Management
+  license: "LICENSE"
+dmg:
+  contents:
+    - x: 130
+      y: 220
+    - x: 410
+      y: 220
+      type: link
+      path: /Applications
+publish:
+  provider: github
+  owner: psi-susas
+  repo: membership-management-system

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Add base tag to help with routing -->
+    <base href="./" />
+    <title>Employee Management System</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap">
+    <!-- Add Tailwind CSS from CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      // Add window.electron flag to help with path resolution
+      window.isElectron = window.navigator.userAgent.indexOf('Electron') !== -1;
+      
+      // Tailwind Config
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              primary: {
+                DEFAULT: '#000000',
+                light: '#333333',
+                dark: '#000000',
+              },
+              secondary: {
+                DEFAULT: '#6366F1',
+                light: '#818CF8',
+                dark: '#4F46E5',
+              },
+              accent: {
+                DEFAULT: '#22C55E',
+                light: '#4ADE80',
+                dark: '#16A34A',
+              },
+              background: {
+                light: '#FFFFFF',
+                dark: '#0A0A0A',
+              },
+              text: {
+                DEFAULT: '#71717A',
+                light: '#A1A1AA',
+                dark: '#3F3F46',
+              },
+            },
+            fontFamily: {
+              sans: [
+                '"SF Pro Display"',
+                'Inter',
+                '-apple-system',
+                'BlinkMacSystemFont',
+                '"Segoe UI"',
+                'Roboto',
+                'sans-serif',
+              ],
+            },
+          }
+        }
+      }
+    </script>
+    <style>
+      html, body, #root {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="./src/main.tsx"></script>
+  </body>
+</html>

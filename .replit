@@ -1,0 +1,75 @@
+modules = ["nodejs-20"]
+
+[nix]
+channel = "stable-24_05"
+
+[workflows]
+runButton = "Development Server"
+
+[[workflows.workflow]]
+name = "Project"
+mode = "parallel"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "Employee Management System"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "Build Windows EXE - Step 1 (Build Vite)"
+
+[[workflows.workflow]]
+name = "Employee Management System"
+author = "agent"
+
+[workflows.workflow.metadata]
+agentRequireRestartOnSave = false
+
+[[workflows.workflow.tasks]]
+task = "packager.installForAll"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "npx vite --port 5000 --host 0.0.0.0"
+waitForPort = 5000
+
+[[workflows.workflow]]
+name = "Build Windows EXE - Step 1 (Build Vite)"
+author = "agent"
+
+[workflows.workflow.metadata]
+agentRequireRestartOnSave = false
+
+[[workflows.workflow.tasks]]
+task = "packager.installForAll"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "vite build"
+
+[[workflows.workflow]]
+name = "Build Windows EXE - Step 2"
+author = 41091771
+mode = "sequential"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "electron-builder --win"
+
+[[workflows.workflow]]
+name = "Development Server"
+author = 41091771
+mode = "sequential"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "npm run dev"
+
+[deployment]
+run = ["sh", "-c", "npm run dev"]
+build = ["sh", "-c", "npm run build"]
+
+[[ports]]
+localPort = 5000
+externalPort = 80

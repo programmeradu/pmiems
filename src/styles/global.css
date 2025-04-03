@@ -1,0 +1,256 @@
+/* This file is now using Tailwind CSS v3 via CDN in index.html */
+/* Custom styles below */
+
+:root {
+  --color-primary: #000000;
+  --color-primary-light: #333333;
+  --color-primary-dark: #000000;
+  --color-secondary: #6366F1;
+  --color-secondary-light: #818CF8;
+  --color-secondary-dark: #4F46E5;
+  --color-accent: #22C55E;
+  --color-accent-light: #4ADE80;
+  --color-accent-dark: #16A34A;
+  --color-text: #71717A;
+}
+
+/* Base styles */
+body {
+  @apply text-gray-700 font-sans transition-colors duration-200;
+}
+
+.dark body {
+  @apply text-gray-300 bg-gray-900;
+}
+
+/* RTL specific adjustments */
+[dir="rtl"] .mr-1 {
+  @apply ml-1 mr-0;
+}
+
+[dir="rtl"] .mr-2 {
+  @apply ml-2 mr-0;
+}
+
+[dir="rtl"] .mr-3 {
+  @apply ml-3 mr-0;
+}
+
+[dir="rtl"] .mr-4 {
+  @apply ml-4 mr-0;
+}
+
+[dir="rtl"] .ml-1 {
+  @apply mr-1 ml-0;
+}
+
+[dir="rtl"] .ml-2 {
+  @apply mr-2 ml-0;
+}
+
+[dir="rtl"] .ml-3 {
+  @apply mr-3 ml-0;
+}
+
+[dir="rtl"] .ml-4 {
+  @apply mr-4 ml-0;
+}
+
+[dir="rtl"] .pl-4 {
+  @apply pr-4 pl-0;
+}
+
+[dir="rtl"] .pr-4 {
+  @apply pl-4 pr-0;
+}
+
+/* Form elements */
+.form-group {
+  @apply mb-4;
+}
+
+.label {
+  @apply block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1;
+}
+
+.input {
+  @apply block w-full px-3 py-2 border border-gray-300 dark:border-gray-700 rounded-md shadow-sm focus:outline-none focus:ring-primary focus:border-primary dark:bg-gray-800 dark:text-white;
+}
+
+.input.error {
+  @apply border-red-500 dark:border-red-500 focus:ring-red-500 focus:border-red-500;
+}
+
+/* Button styles */
+.btn-primary {
+  @apply bg-primary text-white px-4 py-2 rounded-md shadow-sm hover:bg-primary-dark focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary transition-colors duration-200 disabled:opacity-70;
+}
+
+.btn-secondary {
+  @apply bg-white text-gray-700 px-4 py-2 rounded-md shadow-sm border border-gray-300 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-secondary transition-colors duration-200 disabled:opacity-70 dark:bg-gray-800 dark:text-gray-300 dark:border-gray-700 dark:hover:bg-gray-700;
+}
+
+.btn-danger {
+  @apply bg-red-600 text-white px-4 py-2 rounded-md shadow-sm hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 transition-colors duration-200 disabled:opacity-70;
+}
+
+.btn-success {
+  @apply bg-accent text-white px-4 py-2 rounded-md shadow-sm hover:bg-accent-dark focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-accent transition-colors duration-200 disabled:opacity-70;
+}
+
+/* Card styles */
+.card {
+  @apply bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden;
+}
+
+/* Loading spinner */
+.loading-spinner {
+  @apply animate-spin rounded-full h-6 w-6 border-4 border-t-primary border-r-transparent border-b-transparent border-l-transparent;
+}
+
+/* Fade in animation */
+.fade-in {
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Glassmorphism effect */
+.glass {
+  @apply bg-white/80 dark:bg-gray-800/80 backdrop-blur-md;
+}
+
+/* Custom color classes based on our theme variables */
+.bg-primary {
+  background-color: var(--color-primary);
+}
+
+.bg-primary-light {
+  background-color: var(--color-primary-light);
+}
+
+.bg-primary-dark {
+  background-color: var(--color-primary-dark);
+}
+
+.text-primary {
+  color: var(--color-primary);
+}
+
+.text-primary-light {
+  color: var(--color-primary-light);
+}
+
+.text-primary-dark {
+  color: var(--color-primary-dark);
+}
+
+.bg-secondary {
+  background-color: var(--color-secondary);
+}
+
+.text-secondary {
+  color: var(--color-secondary);
+}
+
+.bg-accent {
+  background-color: var(--color-accent);
+}
+
+.text-accent {
+  color: var(--color-accent);
+}
+
+/* Dark mode specific styles */
+.dark .bg-primary {
+  background-color: var(--color-primary);
+}
+
+.dark .text-primary {
+  color: var(--color-primary-light);
+}
+
+/* Accessibility focus indicator */
+*:focus-visible {
+  @apply outline-none ring-2 ring-primary;
+}
+
+/* Responsive table */
+.responsive-table {
+  @apply w-full border-collapse;
+}
+
+.responsive-table th {
+  @apply text-left px-4 py-2 bg-gray-100 dark:bg-gray-700;
+}
+
+.responsive-table td {
+  @apply px-4 py-2 border-t border-gray-200 dark:border-gray-700;
+}
+
+.responsive-table tr {
+  @apply hover:bg-gray-50 dark:hover:bg-gray-750;
+}
+
+@media (max-width: 768px) {
+  .responsive-table thead {
+    @apply hidden;
+  }
+  
+  .responsive-table tbody tr {
+    @apply block border-b border-gray-200 dark:border-gray-700;
+  }
+  
+  .responsive-table tbody td {
+    @apply block text-right pl-4 pr-4 py-2 border-t-0;
+  }
+  
+  .responsive-table tbody td::before {
+    @apply content-[attr(data-label)] float-left font-bold text-gray-700 dark:text-gray-300;
+  }
+}
+
+/* Dashboard-specific styles */
+.stat-card {
+  @apply p-4 bg-white dark:bg-gray-800 rounded-lg shadow;
+}
+
+.stat-card-title {
+  @apply text-sm font-medium text-gray-500 dark:text-gray-400;
+}
+
+.stat-card-value {
+  @apply mt-1 text-3xl font-semibold;
+}
+
+/* Page transitions */
+.page-enter {
+  opacity: 0;
+  transform: translateY(10px);
+}
+
+.page-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 300ms, transform 300ms;
+}
+
+.page-exit {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.page-exit-active {
+  opacity: 0;
+  transform: translateY(-10px);
+  transition: opacity 300ms, transform 300ms;
+}

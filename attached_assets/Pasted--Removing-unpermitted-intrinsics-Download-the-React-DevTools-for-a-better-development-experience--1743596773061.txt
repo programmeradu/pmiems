@@ -1,0 +1,264 @@
+ Removing unpermitted intrinsics
+ Download the React DevTools for a better development experience: https://react.dev/link/react-devtools
+ i18next: languageChanged en
+ i18next: initialized Object
+ i18next::translator: missingKey en translation help.dashboard.overview.title Dashboard Overview
+ i18next::translator: missingKey en translation help.dashboard.overview.content The dashboard gives you a quick overview of your organization with key metrics and recent activity.
+ i18next::translator: missingKey en translation help.dashboard.overview.tip1 Check this page regularly to stay updated on your organization.
+ i18next::translator: missingKey en translation help.dashboard.overview.tip2 Hover over charts to see detailed information.
+ i18next::translator: missingKey en translation help.dashboard.stats.title Statistics Cards
+ i18next::translator: missingKey en translation help.dashboard.stats.content These cards show the total number of employees, departments, and positions in your organization.
+ i18next::translator: missingKey en translation help.dashboard.stats.tip1 Click "View All" to see the complete list.
+ i18next::translator: missingKey en translation help.dashboard.stats.tip2 The numbers update automatically as you add or remove items.
+ i18next::translator: missingKey en translation help.dashboard.chart.title Department Distribution
+ i18next::translator: missingKey en translation help.dashboard.chart.content This chart visualizes how your employees are distributed across departments.
+ i18next::translator: missingKey en translation help.dashboard.chart.tip1 Hover over sections to see the exact employee count and percentage.
+ i18next::translator: missingKey en translation help.dashboard.chart.tip2 A well-balanced organization typically has appropriate staffing across departments.
+ i18next::translator: missingKey en translation help.dashboard.recentHires.title Recent Hires
+ i18next::translator: missingKey en translation help.dashboard.recentHires.content This section shows your most recently added employees, helping you keep track of new team members.
+ i18next::translator: missingKey en translation help.dashboard.recentHires.tip1 Click on an employee to see their full profile.
+ i18next::translator: missingKey en translation help.dashboard.recentHires.tip2 Use this to quickly check which departments are actively hiring.
+ i18next::translator: missingKey en translation help.employees.list.title Employee List
+ i18next::translator: missingKey en translation help.employees.list.content This page displays all employees in your organization. You can sort, filter, and manage employees from here.
+ i18next::translator: missingKey en translation help.employees.list.step1 Use the search box to find specific employees.
+ i18next::translator: missingKey en translation help.employees.list.step2 Click the column headers to sort the list.
+ i18next::translator: missingKey en translation help.employees.list.step3 Use the filter button to filter by department or position.
+ i18next::translator: missingKey en translation help.employees.add.title Adding Employees
+ i18next::translator: missingKey en translation help.employees.add.content Adding new employees is easy with our step-by-step form.
+ i18next::translator: missingKey en translation help.employees.add.step1 Click the "Add Employee" button.
+ i18next::translator: missingKey en translation help.employees.add.step2 Fill out the required information.
+ i18next::translator: missingKey en translation help.employees.add.step3 Select a department and position.
+ i18next::translator: missingKey en translation help.employees.add.step4 Click "Save" to add the employee to your organization.
+ i18next::translator: missingKey en translation help.departments.list.title Department Management
+ i18next::translator: missingKey en translation help.departments.list.content Departments help you organize your company structure and group employees by function.
+ i18next::translator: missingKey en translation help.departments.list.tip1 Create departments before adding positions and employees.
+ i18next::translator: missingKey en translation help.departments.list.tip2 Department names should be clear and descriptive.
+ i18next::translator: missingKey en translation help.positions.list.title Position Management
+ i18next::translator: missingKey en translation help.positions.list.content Positions define the roles within each department. You must create positions before assigning employees to them.
+ i18next::translator: missingKey en translation help.positions.list.tip1 Each position belongs to a specific department.
+ i18next::translator: missingKey en translation help.positions.list.tip2 Create a variety of positions to reflect your organization structure.
+ i18next::translator: missingKey en translation help.reports.overview.title Reports Overview
+ i18next::translator: missingKey en translation help.reports.overview.content Reports provide insights into your workforce and organization structure. Generate reports to analyze data and make informed decisions.
+ i18next::translator: missingKey en translation help.reports.overview.step1 Select a report type from the dropdown.
+ i18next::translator: missingKey en translation help.reports.overview.step2 Configure any filters or parameters.
+ i18next::translator: missingKey en translation help.reports.overview.step3 Click "Generate Report" to view the results.
+ i18next::translator: missingKey en translation help.reports.overview.step4 Use the export options to save reports in different formats.
+ i18next::translator: missingKey en translation help.settings.general.title General Settings
+ i18next::translator: missingKey en translation help.settings.general.content Configure your application preferences, including language, theme, and notification settings.
+ i18next::translator: missingKey en translation help.settings.general.tip1 Switch to dark mode for reduced eye strain in low-light environments.
+ i18next::translator: missingKey en translation help.settings.general.tip2 Choose the language that works best for your team.
+ i18next::translator: missingKey en translation help.settings.account.title Account Settings
+ i18next::translator: missingKey en translation help.settings.account.content Manage your user account, including your profile information and security settings.
+ i18next::translator: missingKey en translation help.settings.account.step1 Update your profile information to keep it current.
+ i18next::translator: missingKey en translation help.settings.account.step2 Change your password regularly for better security.
+ i18next::translator: missingKey en translation help.settings.account.step3 Configure your notification preferences.
+ i18next::translator: missingKey en translation help.navigation.sidebar.title Navigation Menu
+ i18next::translator: missingKey en translation help.navigation.sidebar.content The sidebar menu gives you quick access to all parts of the application.
+ i18next::translator: missingKey en translation help.navigation.sidebar.tip1 Click on any menu item to navigate to that section.
+ i18next::translator: missingKey en translation help.navigation.sidebar.tip2 You can collapse the sidebar on smaller screens by clicking the menu icon.
+ i18next::translator: missingKey en translation help.dashboard.overview.title Dashboard Overview
+ i18next::translator: missingKey en translation help.dashboard.overview.content The dashboard gives you a quick overview of your organization with key metrics and recent activity.
+ i18next::translator: missingKey en translation help.dashboard.overview.tip1 Check this page regularly to stay updated on your organization.
+ i18next::translator: missingKey en translation help.dashboard.overview.tip2 Hover over charts to see detailed information.
+ i18next::translator: missingKey en translation help.dashboard.stats.title Statistics Cards
+ i18next::translator: missingKey en translation help.dashboard.stats.content These cards show the total number of employees, departments, and positions in your organization.
+ i18next::translator: missingKey en translation help.dashboard.stats.tip1 Click "View All" to see the complete list.
+ i18next::translator: missingKey en translation help.dashboard.stats.tip2 The numbers update automatically as you add or remove items.
+ i18next::translator: missingKey en translation help.dashboard.chart.title Department Distribution
+ i18next::translator: missingKey en translation help.dashboard.chart.content This chart visualizes how your employees are distributed across departments.
+ i18next::translator: missingKey en translation help.dashboard.chart.tip1 Hover over sections to see the exact employee count and percentage.
+ i18next::translator: missingKey en translation help.dashboard.chart.tip2 A well-balanced organization typically has appropriate staffing across departments.
+ i18next::translator: missingKey en translation help.dashboard.recentHires.title Recent Hires
+ i18next::translator: missingKey en translation help.dashboard.recentHires.content This section shows your most recently added employees, helping you keep track of new team members.
+ i18next::translator: missingKey en translation help.dashboard.recentHires.tip1 Click on an employee to see their full profile.
+ i18next::translator: missingKey en translation help.dashboard.recentHires.tip2 Use this to quickly check which departments are actively hiring.
+ i18next::translator: missingKey en translation help.employees.list.title Employee List
+ i18next::translator: missingKey en translation help.employees.list.content This page displays all employees in your organization. You can sort, filter, and manage employees from here.
+ i18next::translator: missingKey en translation help.employees.list.step1 Use the search box to find specific employees.
+ i18next::translator: missingKey en translation help.employees.list.step2 Click the column headers to sort the list.
+ i18next::translator: missingKey en translation help.employees.list.step3 Use the filter button to filter by department or position.
+ i18next::translator: missingKey en translation help.employees.add.title Adding Employees
+ i18next::translator: missingKey en translation help.employees.add.content Adding new employees is easy with our step-by-step form.
+ i18next::translator: missingKey en translation help.employees.add.step1 Click the "Add Employee" button.
+ i18next::translator: missingKey en translation help.employees.add.step2 Fill out the required information.
+ i18next::translator: missingKey en translation help.employees.add.step3 Select a department and position.
+ i18next::translator: missingKey en translation help.employees.add.step4 Click "Save" to add the employee to your organization.
+ i18next::translator: missingKey en translation help.departments.list.title Department Management
+ i18next::translator: missingKey en translation help.departments.list.content Departments help you organize your company structure and group employees by function.
+ i18next::translator: missingKey en translation help.departments.list.tip1 Create departments before adding positions and employees.
+ i18next::translator: missingKey en translation help.departments.list.tip2 Department names should be clear and descriptive.
+ i18next::translator: missingKey en translation help.positions.list.title Position Management
+ i18next::translator: missingKey en translation help.positions.list.content Positions define the roles within each department. You must create positions before assigning employees to them.
+ i18next::translator: missingKey en translation help.positions.list.tip1 Each position belongs to a specific department.
+ i18next::translator: missingKey en translation help.positions.list.tip2 Create a variety of positions to reflect your organization structure.
+ i18next::translator: missingKey en translation help.reports.overview.title Reports Overview
+ i18next::translator: missingKey en translation help.reports.overview.content Reports provide insights into your workforce and organization structure. Generate reports to analyze data and make informed decisions.
+ i18next::translator: missingKey en translation help.reports.overview.step1 Select a report type from the dropdown.
+ i18next::translator: missingKey en translation help.reports.overview.step2 Configure any filters or parameters.
+ i18next::translator: missingKey en translation help.reports.overview.step3 Click "Generate Report" to view the results.
+ i18next::translator: missingKey en translation help.reports.overview.step4 Use the export options to save reports in different formats.
+ i18next::translator: missingKey en translation help.settings.general.title General Settings
+ i18next::translator: missingKey en translation help.settings.general.content Configure your application preferences, including language, theme, and notification settings.
+ i18next::translator: missingKey en translation help.settings.general.tip1 Switch to dark mode for reduced eye strain in low-light environments.
+ i18next::translator: missingKey en translation help.settings.general.tip2 Choose the language that works best for your team.
+ i18next::translator: missingKey en translation help.settings.account.title Account Settings
+ i18next::translator: missingKey en translation help.settings.account.content Manage your user account, including your profile information and security settings.
+ i18next::translator: missingKey en translation help.settings.account.step1 Update your profile information to keep it current.
+ i18next::translator: missingKey en translation help.settings.account.step2 Change your password regularly for better security.
+ i18next::translator: missingKey en translation help.settings.account.step3 Configure your notification preferences.
+ i18next::translator: missingKey en translation help.navigation.sidebar.title Navigation Menu
+ i18next::translator: missingKey en translation help.navigation.sidebar.content The sidebar menu gives you quick access to all parts of the application.
+ i18next::translator: missingKey en translation help.navigation.sidebar.tip1 Click on any menu item to navigate to that section.
+ i18next::translator: missingKey en translation help.navigation.sidebar.tip2 You can collapse the sidebar on smaller screens by clicking the menu icon.
+ i18next: languageChanged en
+ i18next: languageChanged en
+ 👋 Hey ZED - Zoom Easy Downloader is enabled, if you like our extension please rate us on https://chrome.google.com/webstore/detail/zed-zoom-easy-downloader/pdadlkbckhinonakkfkdaadceojbekep
+ onmessage
+content.bundle.js:1 Uncaught 
+ i18next::translator: missingKey en translation help.dashboard.overview.title Dashboard Overview
+ i18next::translator: missingKey en translation help.dashboard.overview.content The dashboard gives you a quick overview of your organization with key metrics and recent activity.
+ i18next::translator: missingKey en translation help.dashboard.overview.tip1 Check this page regularly to stay updated on your organization.
+ i18next::translator: missingKey en translation help.dashboard.overview.tip2 Hover over charts to see detailed information.
+ i18next::translator: missingKey en translation help.dashboard.stats.title Statistics Cards
+ i18next::translator: missingKey en translation help.dashboard.stats.content These cards show the total number of employees, departments, and positions in your organization.
+ i18next::translator: missingKey en translation help.dashboard.stats.tip1 Click "View All" to see the complete list.
+ i18next::translator: missingKey en translation help.dashboard.stats.tip2 The numbers update automatically as you add or remove items.
+ i18next::translator: missingKey en translation help.dashboard.chart.title Department Distribution
+ i18next::translator: missingKey en translation help.dashboard.chart.content This chart visualizes how your employees are distributed across departments.
+ i18next::translator: missingKey en translation help.dashboard.chart.tip1 Hover over sections to see the exact employee count and percentage.
+ i18next::translator: missingKey en translation help.dashboard.chart.tip2 A well-balanced organization typically has appropriate staffing across departments.
+ i18next::translator: missingKey en translation help.dashboard.recentHires.title Recent Hires
+ i18next::translator: missingKey en translation help.dashboard.recentHires.content This section shows your most recently added employees, helping you keep track of new team members.
+ i18next::translator: missingKey en translation help.dashboard.recentHires.tip1 Click on an employee to see their full profile.
+ i18next::translator: missingKey en translation help.dashboard.recentHires.tip2 Use this to quickly check which departments are actively hiring.
+ i18next::translator: missingKey en translation help.employees.list.title Employee List
+ i18next::translator: missingKey en translation help.employees.list.content This page displays all employees in your organization. You can sort, filter, and manage employees from here.
+ i18next::translator: missingKey en translation help.employees.list.step1 Use the search box to find specific employees.
+ i18next::translator: missingKey en translation help.employees.list.step2 Click the column headers to sort the list.
+ i18next::translator: missingKey en translation help.employees.list.step3 Use the filter button to filter by department or position.
+ i18next::translator: missingKey en translation help.employees.add.title Adding Employees
+ i18next::translator: missingKey en translation help.employees.add.content Adding new employees is easy with our step-by-step form.
+ i18next::translator: missingKey en translation help.employees.add.step1 Click the "Add Employee" button.
+ i18next::translator: missingKey en translation help.employees.add.step2 Fill out the required information.
+ i18next::translator: missingKey en translation help.employees.add.step3 Select a department and position.
+ i18next::translator: missingKey en translation help.employees.add.step4 Click "Save" to add the employee to your organization.
+ i18next::translator: missingKey en translation help.departments.list.title Department Management
+ i18next::translator: missingKey en translation help.departments.list.content Departments help you organize your company structure and group employees by function.
+ i18next::translator: missingKey en translation help.departments.list.tip1 Create departments before adding positions and employees.
+ i18next::translator: missingKey en translation help.departments.list.tip2 Department names should be clear and descriptive.
+ i18next::translator: missingKey en translation help.positions.list.title Position Management
+ i18next::translator: missingKey en translation help.positions.list.content Positions define the roles within each department. You must create positions before assigning employees to them.
+ i18next::translator: missingKey en translation help.positions.list.tip1 Each position belongs to a specific department.
+ i18next::translator: missingKey en translation help.positions.list.tip2 Create a variety of positions to reflect your organization structure.
+ i18next::translator: missingKey en translation help.reports.overview.title Reports Overview
+ i18next::translator: missingKey en translation help.reports.overview.content Reports provide insights into your workforce and organization structure. Generate reports to analyze data and make informed decisions.
+ i18next::translator: missingKey en translation help.reports.overview.step1 Select a report type from the dropdown.
+ i18next::translator: missingKey en translation help.reports.overview.step2 Configure any filters or parameters.
+ i18next::translator: missingKey en translation help.reports.overview.step3 Click "Generate Report" to view the results.
+ i18next::translator: missingKey en translation help.reports.overview.step4 Use the export options to save reports in different formats.
+ i18next::translator: missingKey en translation help.settings.general.title General Settings
+ i18next::translator: missingKey en translation help.settings.general.content Configure your application preferences, including language, theme, and notification settings.
+ i18next::translator: missingKey en translation help.settings.general.tip1 Switch to dark mode for reduced eye strain in low-light environments.
+ i18next::translator: missingKey en translation help.settings.general.tip2 Choose the language that works best for your team.
+ i18next::translator: missingKey en translation help.settings.account.title Account Settings
+ i18next::translator: missingKey en translation help.settings.account.content Manage your user account, including your profile information and security settings.
+ i18next::translator: missingKey en translation help.settings.account.step1 Update your profile information to keep it current.
+ i18next::translator: missingKey en translation help.settings.account.step2 Change your password regularly for better security.
+ i18next::translator: missingKey en translation help.settings.account.step3 Configure your notification preferences.
+ i18next::translator: missingKey en translation help.navigation.sidebar.title Navigation Menu
+ i18next::translator: missingKey en translation help.navigation.sidebar.content The sidebar menu gives you quick access to all parts of the application.
+ i18next::translator: missingKey en translation help.navigation.sidebar.tip1 Click on any menu item to navigate to that section.
+ i18next::translator: missingKey en translation help.navigation.sidebar.tip2 You can collapse the sidebar on smaller screens by clicking the menu icon.
+ i18next::translator: missingKey en translation help.dashboard.overview.title Dashboard Overview
+ i18next::translator: missingKey en translation help.dashboard.overview.content The dashboard gives you a quick overview of your organization with key metrics and recent activity.
+ i18next::translator: missingKey en translation help.dashboard.overview.tip1 Check this page regularly to stay updated on your organization.
+ i18next::translator: missingKey en translation help.dashboard.overview.tip2 Hover over charts to see detailed information.
+ i18next::translator: missingKey en translation help.dashboard.stats.title Statistics Cards
+ i18next::translator: missingKey en translation help.dashboard.stats.content These cards show the total number of employees, departments, and positions in your organization.
+ i18next::translator: missingKey en translation help.dashboard.stats.tip1 Click "View All" to see the complete list.
+ i18next::translator: missingKey en translation help.dashboard.stats.tip2 The numbers update automatically as you add or remove items.
+ i18next::translator: missingKey en translation help.dashboard.chart.title Department Distribution
+ i18next::translator: missingKey en translation help.dashboard.chart.content This chart visualizes how your employees are distributed across departments.
+ i18next::translator: missingKey en translation help.dashboard.chart.tip1 Hover over sections to see the exact employee count and percentage.
+ i18next::translator: missingKey en translation help.dashboard.chart.tip2 A well-balanced organization typically has appropriate staffing across departments.
+ i18next::translator: missingKey en translation help.dashboard.recentHires.title Recent Hires
+ i18next::translator: missingKey en translation help.dashboard.recentHires.content This section shows your most recently added employees, helping you keep track of new team members.
+ i18next::translator: missingKey en translation help.dashboard.recentHires.tip1 Click on an employee to see their full profile.
+ i18next::translator: missingKey en translation help.dashboard.recentHires.tip2 Use this to quickly check which departments are actively hiring.
+ i18next::translator: missingKey en translation help.employees.list.title Employee List
+ i18next::translator: missingKey en translation help.employees.list.content This page displays all employees in your organization. You can sort, filter, and manage employees from here.
+ i18next::translator: missingKey en translation help.employees.list.step1 Use the search box to find specific employees.
+ i18next::translator: missingKey en translation help.employees.list.step2 Click the column headers to sort the list.
+i18next.js?v=bf938ee4:209 i18next::translator: missingKey en translation help.employees.list.step3 Use the filter button to filter by department or position.
+i18next.js?v=bf938ee4:209 i18next::translator: missingKey en translation help.employees.add.title Adding Employees
+i18next.js?v=bf938ee4:209 i18next::translator: missingKey en translation help.employees.add.content Adding new employees is easy with our step-by-step form.
+i18next.js?v=bf938ee4:209 i18next::translator: missingKey en translation help.employees.add.step1 Click the "Add Employee" button.
+i18next.js?v=bf938ee4:209 i18next::translator: missingKey en translation help.employees.add.step2 Fill out the required information.
+i18next.js?v=bf938ee4:209 i18next::translator: missingKey en translation help.employees.add.step3 Select a department and position.
+i18next.js?v=bf938ee4:209 i18next::translator: missingKey en translation help.employees.add.step4 Click "Save" to add the employee to your organization.
+i18next.js?v=bf938ee4:209 i18next::translator: missingKey en translation help.departments.list.title Department Management
+i18next.js?v=bf938ee4:209 i18next::translator: missingKey en translation help.departments.list.content Departments help you organize your company structure and group employees by function.
+i18next.js?v=bf938ee4:209 i18next::translator: missingKey en translation help.departments.list.tip1 Create departments before adding positions and employees.
+i18next.js?v=bf938ee4:209 i18next::translator: missingKey en translation help.departments.list.tip2 Department names should be clear and descriptive.
+i18next.js?v=bf938ee4:209 i18next::translator: missingKey en translation help.positions.list.title Position Management
+i18next.js?v=bf938ee4:209 i18next::translator: missingKey en translation help.positions.list.content Positions define the roles within each department. You must create positions before assigning employees to them.
+i18next.js?v=bf938ee4:209 i18next::translator: missingKey en translation help.positions.list.tip1 Each position belongs to a specific department.
+i18next.js?v=bf938ee4:209 i18next::translator: missingKey en translation help.positions.list.tip2 Create a variety of positions to reflect your organization structure.
+i18next.js?v=bf938ee4:209 i18next::translator: missingKey en translation help.reports.overview.title Reports Overview
+i18next.js?v=bf938ee4:209 i18next::translator: missingKey en translation help.reports.overview.content Reports provide insights into your workforce and organization structure. Generate reports to analyze data and make informed decisions.
+i18next.js?v=bf938ee4:209 i18next::translator: missingKey en translation help.reports.overview.step1 Select a report type from the dropdown.
+i18next.js?v=bf938ee4:209 i18next::translator: missingKey en translation help.reports.overview.step2 Configure any filters or parameters.
+i18next.js?v=bf938ee4:209 i18next::translator: missingKey en translation help.reports.overview.step3 Click "Generate Report" to view the results.
+i18next.js?v=bf938ee4:209 i18next::translator: missingKey en translation help.reports.overview.step4 Use the export options to save reports in different formats.
+i18next.js?v=bf938ee4:209 i18next::translator: missingKey en translation help.settings.general.title General Settings
+i18next.js?v=bf938ee4:209 i18next::translator: missingKey en translation help.settings.general.content Configure your application preferences, including language, theme, and notification settings.
+i18next.js?v=bf938ee4:209 i18next::translator: missingKey en translation help.settings.general.tip1 Switch to dark mode for reduced eye strain in low-light environments.
+i18next.js?v=bf938ee4:209 i18next::translator: missingKey en translation help.settings.general.tip2 Choose the language that works best for your team.
+i18next.js?v=bf938ee4:209 i18next::translator: missingKey en translation help.settings.account.title Account Settings
+i18next.js?v=bf938ee4:209 i18next::translator: missingKey en translation help.settings.account.content Manage your user account, including your profile information and security settings.
+i18next.js?v=bf938ee4:209 i18next::translator: missingKey en translation help.settings.account.step1 Update your profile information to keep it current.
+i18next.js?v=bf938ee4:209 i18next::translator: missingKey en translation help.settings.account.step2 Change your password regularly for better security.
+i18next.js?v=bf938ee4:209 i18next::translator: missingKey en translation help.settings.account.step3 Configure your notification preferences.
+i18next.js?v=bf938ee4:209 i18next::translator: missingKey en translation help.navigation.sidebar.title Navigation Menu
+i18next.js?v=bf938ee4:209 i18next::translator: missingKey en translation help.navigation.sidebar.content The sidebar menu gives you quick access to all parts of the application.
+i18next.js?v=bf938ee4:209 i18next::translator: missingKey en translation help.navigation.sidebar.tip1 Click on any menu item to navigate to that section.
+i18next.js?v=bf938ee4:209 i18next::translator: missingKey en translation help.navigation.sidebar.tip2 You can collapse the sidebar on smaller screens by clicking the menu icon.
+chunk-QXL5WIX3.js?v=bf938ee4:8306 MUI Grid: The `item` prop has been removed and is no longer necessary. You can safely remove it.
+
+(anonymous) @ chunk-QXL5WIX3.js?v=bf938ee4:8306
+chunk-QXL5WIX3.js?v=bf938ee4:8306 MUI Grid: The `xs` prop has been removed. See https://mui.com/material-ui/migration/upgrade-to-grid-v2/ for migration instructions.
+
+(anonymous) @ chunk-QXL5WIX3.js?v=bf938ee4:8306
+chunk-QXL5WIX3.js?v=bf938ee4:8306 MUI Grid: The `sm` prop has been removed. See https://mui.com/material-ui/migration/upgrade-to-grid-v2/ for migration instructions.
+
+(anonymous) @ chunk-QXL5WIX3.js?v=bf938ee4:8306
+chunk-QXL5WIX3.js?v=bf938ee4:8306 MUI Grid: The `md` prop has been removed. See https://mui.com/material-ui/migration/upgrade-to-grid-v2/ for migration instructions.
+
+(anonymous) @ chunk-QXL5WIX3.js?v=bf938ee4:8306
+chunk-QXL5WIX3.js?v=bf938ee4:8306 MUI Grid: The `lg` prop has been removed. See https://mui.com/material-ui/migration/upgrade-to-grid-v2/ for migration instructions.
+
+(anonymous) @ chunk-QXL5WIX3.js?v=bf938ee4:8306
+ipc.ts:11 Error getting dashboard stats: TypeError: Cannot read properties of undefined (reading 'getDashboardStats')
+    at getDashboardStats (ipc.ts:9:37)
+    at fetchDashboardStats (Dashboard.tsx:62:32)
+    at Dashboard.tsx:77:5
+    at react-stack-bottom-frame (react-dom_client.js?v=bf938ee4:17478:20)
+    at runWithFiberInDEV (react-dom_client.js?v=bf938ee4:1485:72)
+    at commitHookEffectListMount (react-dom_client.js?v=bf938ee4:8460:122)
+    at commitHookPassiveMountEffects (react-dom_client.js?v=bf938ee4:8518:60)
+    at commitPassiveMountOnFiber (react-dom_client.js?v=bf938ee4:9887:29)
+    at recursivelyTraversePassiveMountEffects (react-dom_client.js?v=bf938ee4:9868:13)
+    at commitPassiveMountOnFiber (react-dom_client.js?v=bf938ee4:9984:13)
+getDashboardStats @ ipc.ts:11
+ipc.ts:11 Error getting dashboard stats: TypeError: Cannot read properties of undefined (reading 'getDashboardStats')
+    at getDashboardStats (ipc.ts:9:37)
+    at fetchDashboardStats (Dashboard.tsx:62:32)
+    at Dashboard.tsx:77:5
+    at react-stack-bottom-frame (react-dom_client.js?v=bf938ee4:17478:20)
+    at runWithFiberInDEV (react-dom_client.js?v=bf938ee4:1485:72)
+    at commitHookEffectListMount (react-dom_client.js?v=bf938ee4:8460:122)
+    at commitHookPassiveMountEffects (react-dom_client.js?v=bf938ee4:8518:60)
+    at reconnectPassiveEffects (react-dom_client.js?v=bf938ee4:10016:13)
+    at recursivelyTraverseReconnectPassiveEffects (react-dom_client.js?v=bf938ee4:9995:11)
+    at reconnectPassiveEffects (react-dom_client.js?v=bf938ee4:10054:13)
+getDashboardStats @ ipc.ts:11

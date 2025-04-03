@@ -1,0 +1,77 @@
+I'm building a state-of-the-art Employee Management System as an Electron desktop app. The app must be fully functional, with no dummy elements—every button, menu, and page should work perfectly. Use NextUI, Refine.dev UI, and Material UI to create a visually stunning, modern, and highly responsive interface that impresses at first glance.
+
+Core Requirements:
+1. UI/UX Design & Styling:
+Combine NextUI, Refine.dev UI, and Material UI to create a sleek, modern, and highly interactive interface.
+
+Implement subtle glassmorphism effects, elegant typography (San Francisco/Inter), and smooth transitions with Framer Motion animations.
+
+Ensure responsive design with dark/light mode support.
+
+UI should be minimalist yet visually striking—not just a basic white screen but a beautifully designed, futuristic layout.
+
+2. Core Features & Functionality:
+✅ Multi-Language Support:
+
+Full localization with English, French, and Arabic (including RTL support).
+
+Every single UI element (menus, labels, buttons, tables, etc.) should be translated, except for user input.
+
+✅ Multi-User System:
+
+Admin login with secure authentication.
+
+Password reset functionality for admins.
+
+Role-based access control (e.g., Admin can manage employees, but employees only see limited data).
+
+✅ Employee Management:
+
+Add, edit, delete, and view employee records with full details (Name, Department, Position, Contact Info, Profile Photo, etc.).
+
+Data should be stored locally in SQLite (better-sqlite3) for quick and secure access.
+
+No internet required—the app must function 100% offline.
+
+✅ Departments & Positions Management:
+
+Admins should be able to create and manage departments and positions.
+
+Employees should be assigned to departments/positions dynamically.
+
+✅ Analysis Dashboard & Reports:
+
+A fully interactive dashboard with key insights (employee count, department distributions, etc.).
+
+Generate beautiful, structured reports (PDF/CSV export) with employee statistics.
+
+3. Technical Integration & Best Practices:
+✅ Built for Electron:
+
+Use Electron Forge & Electron Builder for seamless development, packaging, and auto-updating.
+
+Ensure secure IPC communication between Electron’s main and renderer processes.
+
+✅ High-Performance Stack:
+
+Frontend: Vite + React + TypeScript.
+
+Backend & Storage: SQLite (better-sqlite3)—fully local, no external dependencies.
+
+✅ No Dummy Code—Everything Must Work!
+
+Every page, button, and menu item must be fully functional.
+
+No placeholders—all pages should be generated and designed with full functionality.
+
+✅ AI-Powered Insights (Optional but Recommended):
+
+Use ONNX Runtime or TensorFlow.js to enable local AI-powered employee analytics (e.g., department performance trends, position-based statistics).
+
+Execution Goal:
+Generate a complete, production-ready Electron desktop app with a stunning, modern interface, functional multi-user system, full offline support, localized translations, and a robust employee management, departments, and reports system.
+
+This app must be polished, ready for deployment, and deliver a "wow" factor with its UI and experience.
+
+Final Words:
+"Let’s build an Employee Management System that sets a new standard in desktop app design, functionality, and offline performance!
