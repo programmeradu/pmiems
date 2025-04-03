@@ -33,6 +33,7 @@
     "@mui/x-data-grid": "^7.28.2",
     "@mui/x-date-pickers": "^7.28.2",
     "@nextui-org/react": "^2.6.11",
+    "@tailwindcss/postcss": "^4.1.1",
     "@tensorflow/tfjs": "^4.22.0",
     "@types/node": "^22.13.14",
     "@types/react": "^19.0.12",
